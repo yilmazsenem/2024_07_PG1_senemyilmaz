@@ -14,7 +14,14 @@ public class Q04 {
         int sayi10 = (int) Math.pow(sayi2,sayi3);
         int sayi11 = (int) Math.pow(sayi3,sayi3);
         int sayi12 = (int) Math.pow(sayi4,sayi3);
-        System.out.println (sayi1);
+        int[] list1 = {sayi1, sayi5, sayi9};
+        int[] list2 = {sayi2, sayi6, sayi10};
+        int[] list3 = {sayi3, sayi7, sayi11};
+        int[] list4 = {sayi4, sayi8, sayi12};
+        System.out.println (Arrays.toString(list1));
+        System.out.println (Arrays.toString(list2));
+        System.out.println (Arrays.toString(list3));
+        System.out.println (Arrays.toString(list4));
 
     }
 }
