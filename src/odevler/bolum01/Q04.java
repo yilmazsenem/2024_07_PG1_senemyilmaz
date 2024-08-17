@@ -18,10 +18,7 @@ public class Q04 {
         int[] list2 = {sayi2, sayi6, sayi10};
         int[] list3 = {sayi3, sayi7, sayi11};
         int[] list4 = {sayi4, sayi8, sayi12};
-        System.out.println (Arrays.toString(list1));
-        System.out.println (Arrays.toString(list2));
-        System.out.println (Arrays.toString(list3));
-        System.out.println (Arrays.toString(list4));
+        System.out.println (list2);
 
     }
 }
