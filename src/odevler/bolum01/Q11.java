@@ -3,7 +3,7 @@ package odevler.bolum01;
 public class Q11 {
     public static void main(String[] args) {
         int population2024 = 312032486;
-        double totalsecondsinaday = (3600.0*24.0);
+        double totalsecondsinaday = (24.0*60.0*60.0);
         double totalbirthsinaday = ((totalsecondsinaday)/7.0);
         double totaldeathsinaday = ((totalsecondsinaday)/13.0);
         double totalimmigrants = ((totalsecondsinaday)/45.0);
